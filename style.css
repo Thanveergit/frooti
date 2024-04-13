@@ -1,0 +1,95 @@
+body{
+     margin: 0;
+}
+.navbar{
+     height: 70px;
+}
+
+.fan{
+     background: rgb(240, 145, 48);
+     height: 1050px
+}
+.leave-img{
+     position: relative;
+     top: 351px;
+     width: 23%;
+     height: fit-content;
+     margin: auto;
+}
+    
+.main-text{
+     width: 60%;
+     margin: auto;
+     position: relative;
+     color: #fff;
+    
+}
+.main-text h1{
+     text-align: center;
+     font-size: 80px;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+}
+.content{
+     padding: 120px;
+     height: 1050px;
+     
+}
+.content p{
+     font-family: "merivaregular";
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+@media  (max-width: 766px) {
+      .content {
+         padding:30px;
+         
+     }
+     .content p{
+          line-height: .95;
+          font-size: 23px;
+     }
+ }
+ @media (max-width:766px){
+.fan{
+     height: 400px
+}
+     .leave-img{
+          position: relative;
+          top: 100px;
+          width: 23%;
+          height: fit-content;
+          margin: auto;
+     }
+     .main-text h1{
+          text-align: center;
+          font-size: 40px;
+         font-weight: 800;
+         font-family: "EksellDisplayWeb-Small";
+         position: absolute;
+         top: -45px;
+     }
+
+} 
+  .brand-image{
+     position: relative;
+  }
+  footer p{
+     font-size: 14px;
+  }
+  footer p a{
+     color: #0a0b27;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  footer p a:hover{
+     color: red;
+  }
+  .cotainer-fluid{
+     margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
